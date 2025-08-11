@@ -95,7 +95,7 @@ int main(void)
   while (1)
   {
     HAL_GPIO_TogglePin(BLINKY_LED_GPIO_Port, BLINKY_LED_Pin);
-    HAL_Delay(100);
+    HAL_Delay(50);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
